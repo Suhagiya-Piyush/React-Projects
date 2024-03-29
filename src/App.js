@@ -21,7 +21,7 @@ function App() {
         <img src={morning} alt="" className={Style.img}/>
         <Greeting />
       </div> */}
-      <div className='grid grid-cols-3'>
+      <div className='flex flex-wrap justify-around'>
         <Props name="* html 5 *" img={logo_1} disc="HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser."/>
         <Props name="* css *" img={logo_2} disc="Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language."/>
         <Props name="* Tailwind *" img={logo_3} disc="Tailwind CSS is an open source CSS framework. The main feature of this library is that, unlike other CSS frameworks like Bootstrap."/>

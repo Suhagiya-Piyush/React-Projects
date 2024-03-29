@@ -4,7 +4,7 @@ import './Styles/Style.css';
 
 const Props = (props) => {
   return (
-    <div className='flex justify-around'>
+    <div className=''>
         <div className='rounded-2xl shadow my-8 w-80 hover:outline-green-500 cursor-pointer main'>
             <div className='bg-blue-500 flex justify-center p-8 box-1'>
                 <img src={props.img} alt='Image1' className='h-40 w-40 p-4 bg-gray-400 rounded-3xl outline-8 outline-double outline-white hover:duration-500 hover:outline-orange-500'></img>
