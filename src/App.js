@@ -12,7 +12,7 @@ import Data from './Components/Props-Data';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header className="header"/>
       {/* <div className='flex justify-center my-auto'>
         <img src={morning} alt="" className={Style.img}/>
         <Greeting />
