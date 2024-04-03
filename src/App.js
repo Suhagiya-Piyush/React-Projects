@@ -7,7 +7,8 @@ import Header from './Components/Header';
 // import './Components/Styles/Style.css';
 // import Props from './Components/Props';
 // import Data from './Components/Props-Data';
-import Demo from './Components/Task-3';
+// import Demo from './Components/Task-3';
+import IncDec from './Components/Inc-Dec';
 
 
 function App() {
@@ -30,8 +31,9 @@ function App() {
         <Props name="* React JS *" img={logo_5} disc="React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components."/>
         <Props name="* Node JS *" img={logo_6} disc="Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more."/> */}
       {/* </div> */}
-      {}
-        <Demo a ="😄" b = "😃" c = "😄"/>
+        {/* <Demo a ="😄" b = "😃" c = "😄"/> */}
+        <IncDec/>
+
     </div>
   );
 }
